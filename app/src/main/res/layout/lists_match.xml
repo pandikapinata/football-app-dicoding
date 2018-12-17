@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/pad10">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <!--<ImageButton-->
+                <!--android:id="@+id/add_to_calendar"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:src="@drawable/ic_alarm"-->
+                <!--android:background="@android:color/transparent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:padding="@dimen/pad5"-->
+                <!--android:visibility="gone"-->
+                <!--android:layout_alignParentRight="true"/>-->
+
+        <!--</RelativeLayout>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/pad10">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingBottom="@dimen/pad5"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_match_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/date_match"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/f16" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/pad2"
+                    android:layout_marginEnd="@dimen/pad2"
+                    android:text="-"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/f16" />
+
+                <TextView
+                    android:id="@+id/tv_match_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/match_time"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/f16" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/pad20"
+                android:weightSum="9">
+
+                <TextView
+                    android:id="@+id/tv_home"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="@string/team_home"
+                    android:textSize="@dimen/f16" />
+
+                <TextView
+                    android:id="@+id/tv_score_home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/score_home"
+                    android:textSize="@dimen/f16"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/vs"
+                    android:textSize="@dimen/f16" />
+
+                <TextView
+                    android:id="@+id/tv_score_away"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/score_away"
+                    android:textSize="@dimen/f16"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_away"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="@string/team_away"
+                    android:textSize="@dimen/f16" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

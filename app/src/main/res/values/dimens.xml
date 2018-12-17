@@ -1,0 +1,14 @@
+<resources>
+    <dimen name="pad2">5dp</dimen>
+    <dimen name="pad5">5dp</dimen>
+    <dimen name="pad10">10dp</dimen>
+    <dimen name="pad15">15dp</dimen>
+    <dimen name="pad20">20dp</dimen>
+
+    <dimen name="f16">16sp</dimen>
+    <dimen name="f14">14sp</dimen>
+    <dimen name="f12">12sp</dimen>
+    <dimen name="f30">30sp</dimen>
+    <dimen name="f20">20sp</dimen>
+    <dimen name="s50">50dp</dimen>
+</resources>

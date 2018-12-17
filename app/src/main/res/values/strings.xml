@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Football App</string>
+    <string name="title_match">Matches</string>
+    <string name="title_teams">Teams</string>
+    <string name="title_favorites">Favorites</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="date_match">Sat, 26 Oct 2018</string>
+    <string name="team_home">Manchester United</string>
+    <string name="team_away">Manchester City</string>
+    <string name="goal_text">65\' Marc Albrighton</string>
+    <string name="team_stats">Team Stats</string>
+    <string name="title_next">Next Match</string>
+    <string name="title_last">Last Match</string>
+    <string name="title_fav">Favorites</string>
+    <string name="lorem_ipsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="player_name">Aguero</string>
+    <string name="player_position">Midfield</string>
+    <string name="match_time">21:00</string>
+    <string name="vs">vs</string>
+    <string name="score_away">3</string>
+    <string name="score_home">1</string>
+    <string name="stadium_arena">Stadium Arena</string>
+    <string name="weight_kg">Weight(kg)</string>
+    <string name="weight_num">60</string>
+    <string name="height">Height(m)</string>
+    <string name="height_num">185</string>
+    <string name="shots">Shots</string>
+    <string name="yellow_cards">Yellow cards</string>
+    <string name="red_cards">Red cards</string>
+    <string name="lineups">Lineups</string>
+    <string name="goal_keeper">Goal Keeper</string>
+    <string name="defense">Defense</string>
+    <string name="midfield">Midfield</string>
+    <string name="forward">Forward</string>
+    <string name="search">Search</string>
+
+    <string-array name="league_name">
+        <!--1-->
+        <item>English Premier League</item>
+        <!--2-->
+        <item>English League Championship</item>
+        <!--3-->
+        <item>German Bundesliga</item>
+        <!--4-->
+        <item>Italian Serie A</item>
+        <!--5-->
+        <item>French Ligue 1</item>
+        <!--6-->
+        <item>Spanish La Liga</item>
+        <!--7-->
+        <item>American Major League Soccer</item>1
+        <!--8-->
+        <item>UEFA Champions League</item>
+        <!--9-->
+        <item>UEFA Europa League</item>
+        <!--10-->
+        <item>FA Cup</item>
+        <!--11-->
+        <item>Copa del Rey</item>
+        <!--12-->
+        <item>UEFA Nation League</item>
+    </string-array>
+
+    <string-array name="league_id">
+        <!--1-->
+        <item>4328</item>
+        <!--2-->
+        <item>4329</item>
+        <!--3-->
+        <item>4331</item>
+        <!--4-->
+        <item>4332</item>
+        <!--5-->
+        <item>4334</item>
+        <!--6-->
+        <item>4335</item>
+        <!--7-->
+        <item>4346</item>
+        <!--8-->
+        <item>4480</item>
+        <!--9-->
+        <item>4481</item>
+        <!--10-->
+        <item>4482</item>
+        <!--11-->
+        <item>4483</item>
+        <!--12-->
+        <item>4490</item>
+    </string-array>
+
+</resources>
