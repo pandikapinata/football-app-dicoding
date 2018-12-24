@@ -13,6 +13,6 @@ width="256">&nbsp;&nbsp;&nbsp;
 <img src="https://raw.githubusercontent.com/pandikapinata/football-app-dicoding/master/screenshots/detail_team.png"
 width="256">&nbsp;&nbsp;&nbsp;
 
-## Authors
+## Author
 
 * **Pandika Pinata** 
